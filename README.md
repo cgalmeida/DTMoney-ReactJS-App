@@ -19,18 +19,34 @@ App para registro de despesas usando ReactJS.
 * [React](https://reactjs.org/)      
 * [Styled Components](https://styled-components.com/)
 * [MirageJS](https://miragejs.com/)
-* 
-## Como executar
 
-No diretório do projeto, execute:
 
-### `yarn start`
+# Instalação
 
-Executa o app em modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para visualizar no browser.
+```bash
+# Baixar o repositório
+git clone https://github.com/cgalmeida/DTMoney-ReactJS-App
+```
 
-### `yarn build`
+# Como executar
+```bash
+# Acessar a pasta "frontend"
+cd DTMoney-ReactJS-App
 
-Executa o build do app para produção na pasta `build`.\
+# Instalar os módulos dependentes
+yarn
+
+# Inicia a aplicação (frontend)
+yarn start 
+
+# Acesse: http://localhost:3000/
+
+# Build
+yarn build
+
+Executa o build do app para produção na pasta `build`.
+```
+ 
+
 
 
